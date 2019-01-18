@@ -20,7 +20,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".retorfitTest.RetrofitDemoActivity"></activity>
+        <activity android:name=".retorfitTest.RetrofitDemoActivity" />
+        <activity android:name=".ui.ReboundTestActivity"></activity>
     </application>
 
 </manifest>

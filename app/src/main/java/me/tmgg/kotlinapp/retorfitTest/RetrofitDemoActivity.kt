@@ -24,6 +24,7 @@ class RetrofitDemoActivity : AppCompatActivity() {
     }
 
     private fun initRecyclerView() {
+
         mRv= this.rv
         mRv!!.layoutManager = LinearLayoutManager(this)
         mRv!!.adapter = RvAdapter(datasList,object :RvAdapter.OnItemClickListener{
